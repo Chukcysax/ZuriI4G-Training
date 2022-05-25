@@ -9,7 +9,7 @@ def find_anagrams(data1, data2):
     return Counter (data1) == Counter (data2)
 
         
- #driver code
+ #main function
 if __name__ == "__main__" :
     data1 = 'elvis'
     data2 = 'lives'
